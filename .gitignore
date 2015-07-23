@@ -1,0 +1,16 @@
+.idea/
+build/
+vendor/
+bin/
+app/logs/*
+!app/logs/.gitkeep
+app/config/parameters.php
+phpunit.xml
+composer.phar
+cache.properties
+coverage.xml
+behat.yml
+.php_cs.cache
+*.tar.gz
+*.swp
+*.swo
