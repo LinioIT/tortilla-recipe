@@ -2,6 +2,6 @@
 
 return [
     'parameters' => [
-        'foo' => 'bar',
+        // add your environment params here
     ],
 ];

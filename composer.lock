@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "664ad0005ea5adf2d9b617f8e321069d",
+    "hash": "5b2d8fd6a4d9afc8b0e6add592b90069",
     "packages": [
         {
             "name": "crell/api-problem",
