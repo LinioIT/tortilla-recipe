@@ -1,6 +1,7 @@
 {
     "name": "linio/tortilla-recipe",
     "type": "project",
+    "license": "BSD-3-Clause",
     "description": "A basic recipe for Tortilla applications.",
     "require": {
         "php": ">=5.6",
