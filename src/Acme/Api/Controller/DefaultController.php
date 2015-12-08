@@ -7,7 +7,7 @@ use Symfony\Component\HttpFoundation\Response;
 
 class DefaultController
 {
-    public function indexAction(Request $request, $name)
+    public function indexAction(Request $request, string $name): Response
     {
         return new Response('Hello ' . $name);
     }

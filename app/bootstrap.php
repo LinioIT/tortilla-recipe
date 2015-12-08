@@ -1,7 +1,6 @@
 <?php
 
 use Linio\Tortilla\Application;
-use Linio\Tortilla\ErrorHandler;
 
 if (!defined('APP_ROOT')) {
     define('APP_ROOT', __DIR__ . '/../app');
@@ -16,8 +15,6 @@ if (!defined('TEST_ROOT')) {
 }
 
 require_once __DIR__ . '/../vendor/autoload.php';
-
-ErrorHandler::register();
 
 $app = new Application();
 

@@ -4,6 +4,8 @@ vendor/
 bin/
 app/logs/*
 !app/logs/.gitkeep
+app/cache/*
+!app/cache/.gitkeep
 app/config/parameters.php
 phpunit.xml
 composer.phar
