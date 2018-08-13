@@ -174,33 +174,28 @@
         },
         {
             "name": "linio/composer-parameter-handler",
-            "version": "3.0.0",
+            "version": "3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/LinioIT/ParameterHandler.git",
-                "reference": "967ce9cfc08873b98d3e7892164e5df8c6bea44c"
+                "reference": "40eadd3bd2b2b50df434c08fa62c78005553c14a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/LinioIT/ParameterHandler/zipball/967ce9cfc08873b98d3e7892164e5df8c6bea44c",
-                "reference": "967ce9cfc08873b98d3e7892164e5df8c6bea44c",
+                "url": "https://api.github.com/repos/LinioIT/ParameterHandler/zipball/40eadd3bd2b2b50df434c08fa62c78005553c14a",
+                "reference": "40eadd3bd2b2b50df434c08fa62c78005553c14a",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3",
+                "php": ">=5.6",
                 "symfony/yaml": "~2.0"
             },
             "require-dev": {
-                "composer/composer": "1.0.*@dev",
-                "phpspec/prophecy-phpunit": "~1.0",
+                "composer/composer": "dev-master",
+                "phpunit/phpunit": "~5.1",
                 "symfony/filesystem": "~2.2"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.1.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Incenteev\\ParameterHandler\\": ""
@@ -221,7 +216,7 @@
             "keywords": [
                 "parameters management"
             ],
-            "time": "2015-07-23T16:09:26+00:00"
+            "time": "2016-02-10T13:30:12+00:00"
         },
         {
             "name": "linio/tortilla",
